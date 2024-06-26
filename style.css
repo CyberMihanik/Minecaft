@@ -1,0 +1,62 @@
+@media (max-width: 435px) {.mb-p{margin-top: 14vh;}}
+@media (min-width: 435px) {.mb-p{margin-top: 9vh;}}
+@media (max-width: 768px) {.mb{margin-top: 4vh;}}
+@media (min-width: 768px) {.mb{margin-top: 8vh;}}
+@media (max-width: 768px) {.mba{margin-top: 9vh;} .mbc{margin-top: 8vh;}}
+@media (min-width: 768px) {.mba{margin-top: 4vh;} .mbc{margin-top: 0vh;}}
+body{background: #3b444b; color: #b7fbb1;}
+
+.cobblestone{
+    background-image: url(images/background/cobblestone.png);
+
+}
+.cobbled_deepslate{
+    padding: 0.5rem 0;
+    background-image: url(images/background/cobbled_deepslate.png);
+
+}
+.bedrock{
+    background-image: url(images/background/bedrock.png);
+
+}
+.fixed-top {background-color: #3b444bf2 !important;}
+.nav {--bs-nav-link-color: #c0fbb1; --bs-nav-pills-link-active-bg: #15b300;}
+.text-body-secondary {color: #a7ff84!important;}
+.text-body-emphasis {color:#6cff47!important;}
+.text-bg-primary {background-color: #06b300!important;}
+.text-start{margin-left: 11vw;}
+.btn:hover {background-color: #40e100; border-color: #25e100; }
+.btn-primary {--bs-btn-bg: #15b300; --bs-btn-border-color: #00b30f; --bs-btn-hover-bg: #00b318; --bs-btn-hover-border-color: #00b300; --bs-btn-active-bg: #00b300; --bs-btn-active-border-color:#00b300;}
+a.icon-link{color:#00e113; text-decoration-color: #00e113;}
+a:hover { color: #c0fbb1; text-decoration-color: #b1fbb5;}
+.nav-link:hover{color:#77ff55!important;}
+.heroes {margin-top: 5vh; margin-bottom: 2vh; }
+.flex{display:flex; align-items:center; justify-content:center; flex-direction: column; text-align: center;}
+.flex-a{display:flex; align-items:center; justify-content:space-around; flex-direction: row; text-align: center; height: 90vh; flex-wrap: wrap;}
+.flex-r{display:flex; align-items:center; justify-content:center; flex-direction: row;}
+.album{--bs-tertiary-bg-rgb:#3b444b; --bs-body-bg: #264428 !important}
+.py {padding-bottom: 0 !important;}
+.pt{padding-top: 0 !important;}
+.pd{padding-top: 2vh;}
+.md{display:flex; align-items:center; justify-content:center; flex-direction: row; text-align: center;}
+.btn-outline-secondary{ background-color: #378f01; --bs-btn-color:#a5d34a; --bs-btn-border-color:#353535;}
+.frame {width:100vw; height:75vh;}
+.bar_earth{background-image: url(images/background/oak_planks.png);}
+.bar_nether{background-image: url(images/background/netherrack.png);}
+.bar_end{background-image: url(images/background/end_stone_bricks.png);}
+.bar_adventure{background-image: url(images/background/sandstone_top.png);}
+.bar_husbandry{background-image: url(images/background/farmland_moist.png);}
+.achv-card{background-image: url(images/achievments/Advancement-plain-raw.webp); background-repeat: repeat; width: 52px; height: 52px; display:flex; align-items:center; justify-content:center; margin-right: 0.2vw;}
+.achve-card{background-image: url(images/achievments/Advancement-oval-raw.webp); background-repeat: repeat; width: 52px; height: 52px; display:flex; align-items:center; justify-content:center; margin-right: 0.2vw;}
+.achvf-card{background-image: url(images/achievments/Advancement-fancy-raw.webp); background-repeat: repeat; width: 52px; height: 52px; display:flex; align-items:center; justify-content:center; margin-right: 0.2vw;}
+.achv-i{ width: 1.7vw; }
+.achv-ish{ width: 1.2vw;}
+.achv-ishe{ width: 1vw;}
+.price{width:100vw;}
+.w {color:white !important}
+.b{color:black !important}
+.card-body{ --bs-card-color: #a7ff84;}
+.card-c{--bs-card-color: #374e2e; --bs-body-bg: #345135 !important;}
+.table{--bs-table-color: #6dff6b !important;}
+.border-primary{border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important; --bs-primary-rgb:#353535 ;}
+.space{height:45vh;}
