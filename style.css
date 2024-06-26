@@ -1,10 +1,12 @@
+@font-face {font-family:"Minecraft Regular";src:url("fonts/Minecraft-Regular.eot") format("eot"),url("fonts/Minecraft-Regular.woff") format("woff"),url("fonts/Minecraft-Regular.ttf") format("truetype"),url("fonts/Minecraft-Regular.svg#Minecraft-Regular") format("svg");font-weight:normal;font-style:normal;}
 @media (max-width: 435px) {.mb-p{margin-top: 14vh;}}
 @media (min-width: 435px) {.mb-p{margin-top: 9vh;}}
 @media (max-width: 768px) {.mb{margin-top: 4vh;}}
 @media (min-width: 768px) {.mb{margin-top: 8vh;}}
 @media (max-width: 768px) {.mba{margin-top: 9vh;} .mbc{margin-top: 8vh;}}
 @media (min-width: 768px) {.mba{margin-top: 4vh;} .mbc{margin-top: 0vh;}}
-body{background: #3b444b; color: #b7fbb1;}
+
+body{background: #3b444b; color: #b7fbb1; font-family: 'Minecraft Regular';}
 
 .cobblestone{
     background-image: url(images/background/cobblestone.png);
